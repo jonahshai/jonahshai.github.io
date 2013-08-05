@@ -1,0 +1,38 @@
+
+#content h1	{
+	font-family:Georgia,serif;
+	font-size:1.7em;
+	color:#5a5a5a;
+	text-align:left;
+	}
+
+#content	{
+	height: 460px;
+	width: 900px;
+	padding: 30px 30px;
+	display: block;
+	margin: auto;
+}
+
+#content div.paragraph	{
+	height: 207px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:1em;
+	line-height:1.5em;
+	color: #868686;
+	text-align: left;
+	}
+
+a	{
+	target: _blank;
+	text-decoration:none;
+	color:#000000;
+	}
+
+a:hover {color:#5a5a5a;}
+
+
+img	{
+	margin: 5px 10px 0px 5px;
+	border: 1px solid #868686; padding: 3px;
+	}
