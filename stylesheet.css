@@ -36,15 +36,13 @@ h2	{
 #nav	{
 	text-decoration: none;
 	font-family: "Enriqueta", serif;
-	font-size: 1.5em;
+	font-size: 1.25em;
 	color: black;
 	text-transform: uppercase;
 	float: left;
-	margin-left: 25px;
-	padding-right: 0px;
-	padding-left: 25px;
 	text-align: left;	}
 	#nav ul li 	{
+		font-family: "Enriqueta", serif;
 		display: inline-block;
 		padding-top: 10px;
 		padding-left: 25px;
@@ -61,6 +59,11 @@ h2	{
 	#nav ul li.active		{
 	background-color: #cccccc;	}
 
+#header #name h3 	{
+	font-family: "Fauna One", serif;
+	text-transform: none;
+}
+
 #content {
 	position: relative;
 	display: block;
@@ -75,6 +78,7 @@ h2	{
 		font-size: 1.75em;
 		line-height: .5;
 		text-transform: uppercase;
+		margin-left: -25px;
 	}
 	#content a 	{
 		text-decoration: none;
@@ -92,21 +96,29 @@ h2	{
 		table-layout: fixed;
 	}
 
-td.title 	{
+.title 	{
 	text-transform: uppercase;
 	font-family: "Enriqueta";
 	font-size: 1em;
 	font-style: bold;
-	text-align: right;
-	vertical-align: top;
+	line-height: .25;
 }
 
-td.date	{
+.date	{
 	text-transform: uppercase;
 	font-family: "Enriqueta";
 	font-size: .85em;
-	text-align: right;
-	vertical-align: top;
+	line-height: .25;
+}
+
+.span5 h3	{
+	text-transform: uppercase;
+	font-family: "Enriqueta";
+	font-size: 1.25em;
+}
+
+.span7 ul li 	{
+	font-family: "Droid Sans";
 }
 
 #tabs	{
