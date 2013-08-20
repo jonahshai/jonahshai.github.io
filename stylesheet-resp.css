@@ -1,0 +1,259 @@
+body 	{
+	font-family: "Droid Sans";
+	color: #000000;
+}
+
+h1 	{
+	font-family: "Fauna One";
+	font-size: 32px;
+}
+
+a:hover 	{
+	color: #cccccc;
+}
+
+a.active 	{
+	text-decoration: none;
+	color: #000000;
+}
+
+a.active:hover 	{
+	color: #000000;
+}
+
+.nav-text ul li.active 	{
+	background-color: #cccccc;
+	border-radius: 5px; 
+}
+
+.nav-text li a 	{
+	color: #000000;
+	}
+
+.nav-text li a:hover 	{
+	color: #a1a1a1;
+}
+
+
+@media screen and (min-width: 993px) {
+
+	#nav-wrapper {
+		height: 100px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 999;
+	}
+
+	#nav {
+		height: 100px;
+		margin: 0 auto;
+		position: relative;
+		-moz-box-shadow: 0 5px 5px -5px #A8A49B;
+		-webkit-box-shadow: 0 5px 5px -5px #A8A49B;
+		box-shadow: 0 5px 5px -5px #A8A49B;
+		width: 915px;
+		z-index: 999;
+	}
+
+	.nav-text {
+		float: left;
+		padding: 5px 5px;
+		clear: both;
+		line-height: px;
+	}
+
+	.nav-text h1 {
+		float: left;
+		display: inline;
+		margin-left: 24px;
+	}
+
+	.nav-text h3 	{
+		float: left;
+		display: inline;
+		position: relative;
+		top: 15px;
+		left: 10px;
+	}
+
+	.nav-text ul {
+		list-style-type: none;
+		margin-top: 52px;
+		margin-left: 48px;
+		padding: 10px 32px;
+		float: left;
+	}
+
+	.nav-text li {
+		clear: both;
+		display: inline;
+		padding-right: 10px;
+		padding-left: 10px;
+		font: 18px 'Enriqueta', sans-serif;
+		text-transform: uppercase;	
+	}
+
+	.nav-text li.current {
+		color: #FF6448;
+		font-weight: bold;
+	}
+
+	#content 	{
+		width: 75%;
+		margin: auto;
+		position: relative;
+		display: block;
+		font-family: "Droid Sans", sans-serif;
+		padding: 150px 100px 50px 100px;
+		text-align: left;
+	}
+}
+
+@media screen and (min-width: 763px) and (max-width: 992px) {
+
+	#nav-wrapper {
+		height: 100px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 999;
+	}
+
+	#nav {
+		height: 100px;
+		margin: 0 auto;
+		position: relative;
+		-moz-box-shadow: 0 5px 5px -5px #A8A49B;
+		-webkit-box-shadow: 0 5px 5px -5px #A8A49B;
+		box-shadow: 0 5px 5px -5px #A8A49B;
+		width: 762px;
+		z-index: 999;
+	}
+
+	.nav-text {
+		float: left;
+		padding: 5px 5px;
+		clear: both;
+		line-height: px;
+	}
+
+	.nav-text h1 {
+		float: left;
+		display: inline;
+		margin-left: 24px;
+	}
+
+	.nav-text h3 	{
+		float: left;
+		display: inline;
+		position: relative;
+		top: 15px;
+		left: 10px;
+	}
+
+	.nav-text ul {
+		list-style-type: none;
+		margin-top: -5px;
+		margin-left: 48px;
+		padding: 10px 32px;
+		float: left;
+	}
+
+	.nav-text li {
+		clear: both;
+		display: inline;
+		padding-right: 10px;
+		padding-left: 10px;
+		font: 18px 'Enriqueta', sans-serif;
+		text-transform: uppercase;	
+	}
+
+	.nav-text li.current {
+		color: #FF6448;
+		font-weight: bold;
+	}
+
+	#content 	{
+		width: 75%;
+		margin: auto;
+		position: relative;
+		display: block;
+		font-family: "Droid Sans", sans-serif;
+		padding: 150px 100px 50px 100px;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 762px) {
+
+	#nav-wrapper {
+		height: 75px;
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 999;
+	}
+
+	#nav {
+		height: 75px;
+		margin: auto;
+		position: relative;
+		text-align: center;
+		-moz-box-shadow: 0 5px 5px -5px #A8A49B;
+		-webkit-box-shadow: 0 5px 5px -5px #A8A49B;
+		box-shadow: 0 5px 5px -5px #A8A49B;
+		width: 375px;
+		z-index: 999;
+	}
+
+	.nav-text {
+		margin: auto;
+		margin-top: 25px;
+		padding: 5px 5px;
+		clear: both;
+		line-height: 12px;
+	}
+
+	.nav-text h1 {
+		display: block;
+		margin: auto;
+	}
+
+	.nav-text h3 	{
+		display: none;
+	}
+
+	.nav-text ul {
+		list-style-type: none;
+		padding: 10px 32px;
+	}
+
+	.nav-text li {
+		clear: both;
+		display: inline;
+		padding-right: 10px;
+		padding-left: 10px;
+		font: 18px 'Enriqueta', sans-serif;
+		text-transform: uppercase;	
+	}
+
+	.nav-text li.current {
+		color: #FF6448;
+		font-weight: bold;
+	}
+
+	#content 	{
+		width: 75%;
+		margin: auto;
+		position: relative;
+		display: block;
+		font-family: "Droid Sans", sans-serif;
+		padding-top: 150px;
+		padding-bottom: 50px;
+		text-align: left;
+	}
+}
