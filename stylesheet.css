@@ -8,6 +8,10 @@ h1 	{
 	font-size: 32px;
 }
 
+h2 	{
+	text-transform: uppercase;
+}
+
 a:hover 	{
 	color: #cccccc;
 }
@@ -84,6 +88,14 @@ ul.sidelist {
 
 #content a:hover 	{
 	color: #000000;
+}
+
+.title 	{
+	line-height: .5;
+}
+
+.date 	{
+	line-height: .5;
 }
 
 
