@@ -229,6 +229,21 @@ ul.sidelist {
 		padding-bottom: 50px;
 	}
 
+	#footer	#social 	{
+		clear: both;
+		margin: auto;
+		display: block;
+		position: relative;
+		float: center;
+		z-index: 10;
+		padding: 0;
+}
+
+	#footer p 	{
+		font-family:"Droid Sans", sans-serif;
+		text-align: center;
+}
+
 }
 
 @media screen and (min-width: 763px) and (max-width: 992px) {
@@ -344,10 +359,15 @@ ul.sidelist {
 		top: -135px;
 	}
 
-	#social 	{
+	/*#social 	{
 		padding-bottom: 35px;
 		float: left;
-	}
+	}*/
+
+	#footer p 	{
+	font-family:"Droid Sans", sans-serif;
+	text-align: center;
+}
 
 }
 
@@ -457,5 +477,20 @@ ul.sidelist {
 		width: 120px;
 		margin-bottom: 5px;
 	}
+
+	#footer	{
+	clear: both;
+	margin: auto;
+	display: block;
+	position: relative;
+	float: center;
+	margin-bottom: 25px;
+	z-index: 10;
+}
+
+	#footer p 	{
+	font-family:"Droid Sans", sans-serif;
+	text-align: center;
+}
 
 }
