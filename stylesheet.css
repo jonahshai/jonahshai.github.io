@@ -346,7 +346,7 @@ ul.sidelist {
 	}
 
 	#sidemain {
-		width: 77.7777778%; /* 700px / 900px */
+		width: 90%; /* 700px / 900px */
 		position: relative;
 		left: -27.77777778%; /* 250px / 900px */
 		margin-left: 50%;
