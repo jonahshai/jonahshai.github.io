@@ -445,7 +445,7 @@ ul.sidelist {
 	}
 
 	#content 	{
-		width: 75%;
+		width: 100%;
 		margin: auto;
 		position: relative;
 		display: block;
@@ -459,15 +459,6 @@ ul.sidelist {
 
 	#sidenav {
 		display: none;
-	}
-
-	#content 	{
-		width: 64%;
-		margin: auto;
-		position: relative;
-		display: block;
-		font-family: "Droid Sans", sans-serif;
-		text-align: left;
 	}
 
 	#sidemain {
