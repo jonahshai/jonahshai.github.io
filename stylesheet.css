@@ -428,7 +428,6 @@ ul.sidelist {
 	.nav-text ul {
 		list-style-type: none;
 		padding: 10px 32px;
-		font-size: 24px;
 	}
 
 	.nav-text li {
@@ -436,7 +435,7 @@ ul.sidelist {
 		display: inline;
 		padding-right: 10px;
 		padding-left: 10px;
-		font: 18px 'Enriqueta', sans-serif;
+		font: 16px 'Enriqueta', sans-serif;
 		text-transform: uppercase;	
 	}
 
