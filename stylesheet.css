@@ -452,6 +452,8 @@ ul.sidelist {
 		font-family: "Droid Sans", sans-serif;
 		padding-top: 150px;
 		padding-bottom: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
 		text-align: left;
 	}
 
