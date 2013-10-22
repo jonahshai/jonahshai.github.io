@@ -433,8 +433,8 @@ ul.sidelist {
 	.nav-text li {
 		clear: both;
 		display: inline;
-		padding-right: 0px;
-		padding-left: 0px;
+		padding-right: 5px;
+		padding-left: 5px;
 		font: 16px 'Enriqueta', sans-serif;
 		text-transform: uppercase;	
 	}
