@@ -1,59 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Jonah Newman | Journalist</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
-		<link href="http://fonts.googleapis.com/css?family=Enriqueta:700|Fauna+One|Droid+Sans:400|" rel="stylesheet" type="text/css"/>
-	</head>
-	<body>
-		<div id = "nav-wrapper">
-			<div id = "nav">
-				<div class = "nav-text">
-					<h1>Jonah Newman</h1>
-					<h3>investigative reporter</h3>
-					<ul>
-						<li class = "active"><a href = "/index.html" class = "active">About</a></li>
-						<li><a href = "/portfolio.html">Reporting</a></li>
-						<li><a href = "/talks.html">Teaching</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div id="sidenav">
-			<ul class="sidelist">
-				<li class="sidetext">About Me</li>
-			</ul>
-		</div>
-		<div id="content">
-			<div id="sidemain">
-				<h2>About Me</h2>
-				<p class="intro">I investigate issues of race, poverty and inequality for the <a href = "http://www.chicagoreporter.com" target = "_blank">Chicago Reporter</a>. Previously I was a database reporter at the <a href="http://www.chronicle.com" target="_blank">Chronicle of Higher Education</a>. You can find more of my data reporting at <a href = "http://www.marketplace.org/people/jonah-newman" target="_blank">Marketplace</a> and the <a href = "http://politics.suntimes.com/authors/jnewman" target="_blank">Chicago Sun-Times</a>. My writing has also appeared in <a href="http://www.thirtytwomag.com" target="_blank">Thirty Two Magazine</a> and <a href = "http://www.tabletmag.com" target="_blank">Tablet Magazine</a>.</p>
-				<p>My focus is on merging data and personal narrative to tell stories that investigate, explore and, ultimately, complicate our understanding of the world. I'm always looking for new ways to draw people into a story and convey complex information simply, powerfully and beautifully.</p>
-				<p>I'm a graduate of the Medill School of Journalism at Northwestern University, a native Minnesotan and (though I was once told you should never describe yourself as an "aspiring" anything) an aspiring world traveler.</p>
-			</div>
-		</div>
-		<div id = "footer">
-				<div id = "social">
-				<a href="https://twitter.com/jonahshai" target="_blank"><img src="images/twitter-icon.png" onmouseover="this.src='images/twitter-icon-hover.png'" onmouseout="this.src='images/twitter-icon.png'" class="iconimage"></a>
-				<a href="http://www.linkedin.com/pub/jonah-newman/12/6bb/14/" target="_blank"><img src="images/linkedin-icon.png" onmouseover="this.src='images/linkedin-icon-hover.png'" onmouseout="this.src='images/linkedin-icon.png'" class="iconimage"></a>
-				<a href="mailto:jonahshai@gmail.com"><img src="images/mail-icon.png" onmouseover="this.src='images/mail-icon-hover.png'" onmouseout="this.src='images/mail-icon.png'" class="iconimage"></a>
-				</div>
-				<p>&copy; 2014 Jonah Newman</p>
-				<script type="text/javascript">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Jonah Newman | Journalist</title>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-34633502-1']);
-  _gaq.push(['_trackPageview']);
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
 
-</script>
-			</div>
-	</body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#home">Jonah Newman | Journalist</a>
+    </div>
+  </div>
+</nav>
+
+<div class = "container">
+<div class = "container" id = "home">
+  <div class="jumbotron">
+    <h3>I combine data and personal narrative to tell stories that expose wrongdoing, explore social inequalities and, I hope, complicate our understanding of the world.</h3>
+    <p>Currently, I investigate issues at the intersection of race, poverty and inequality for the <a href = "http://chicagoreporter.com" target = "_blank">Chicago Reporter</a>. Previously, I was a database reporter at the <a href = "http://chronicle.com" target = "_blank">Chronicle of Higher Education</a>. My writing has also been published in <a href = "http://www.thirtytwomag.com/" target = "_blank"><em>thirty two</em></a> and <a href = "http://www.tabletmag.com/" target = "_blank"><em>Tablet</em></a>.</p>
+  </div>
+</div>
+
+<div class = "container" id = "portfolio">
+<div class = "row">
+  <h1>Portfolio</h1>
+  <h4>A selection of some of my favorite projects.</h4>
+  <br/>
+  <h2>The Chicago Reporter</h2>
+</div>
+<div class = "row">
+  <div class = "col-md-4">
+    <a href data-toggle="modal" data-target="#police"><h3>Settling for Too Much</h3></a>
+    <a href data-toggle="modal" data-target="#police"><img src = "img/cpd.jpg" class = "img-responsive"></a>
+  </div>
+  <div class = "col-md-4">
+    <a href data-toggle="modal" data-target="#concordia"><h3>Public Housing, Private Security</h3></a>
+    <a href data-toggle="modal" data-target="#concordia"><img src = "img/concordia.jpg" class = "img-responsive"></a>
+  </div> 
+  <div class = "col-md-4">
+    <a href data-toggle="modal" data-target="#horner"><h3>Dismantling the Towers</h3></a>
+    <a href data-toggle="modal" data-target="#horner"><img src = "img/horner.jpg" class = "img-responsive"></a>
+  </div>
+  </div>
+  <div class = "row">
+  <br/>
+  <h4>Read more of my work at <a href = "http://chicagoreporter.com/author/jnewman/" target = "_blank">The Chicago Reporter.</a></h4>
+  </div>
+
+<div class = "row">
+  <br/>
+  <h2>The Chronicle of Higher Education</h2>
+</div>
+<div class = "row">
+  <div class = "col-md-4">
+    <a href data-toggle="modal" data-target="#titleix"><h3>Promise Unfulfilled?</h3></a>
+    <a href data-toggle="modal" data-target="#titleix"><img src = "img/titleix.jpg" class = "img-responsive"></a>
+  </div>
+  <div class = "col-md-4">
+    <a href data-toggle="modal" data-target="#execcomp"><h3>Executive Compensation</h3></a>
+    <a href data-toggle="modal" data-target="#execcomp"><img src = "img/execcomp.jpg" class = "img-responsive"></a>
+  </div>
+</div>
+
+<div class = "row">
+  <br/>
+  <h2>Other Projects</h2>
+</div>
+<div class = "row">
+  <div class = "col-md-4">
+    <a href data-toggle="modal" data-target="#tablet"><h3>Sky Tinged Red</h3></a>
+    <a href data-toggle="modal" data-target="#tablet"><img src = "img/sky-tinged-red.jpg" class = "img-responsive"></a>
+  </div>
+  <div class = "col-md-4">
+    <a href data-toggle="modal" data-target="#wbez"><h3>30 Million Words</h3></a>
+    <a href data-toggle="modal" data-target="#wbez"><img src = "img/30-million-words.jpg" class = "img-responsive"></a>
+  </div>
+</div>
+</div>
+</div>
+
+    <footer class="footer">
+      <div class = "container">
+        <div class="social">
+          <a href="https://twitter.com/jonahshai" target="_blank"><img src="img/twitter-icon.png" onmouseover="this.src='img/twitter-icon-hover.png'" onmouseout="this.src='img/twitter-icon.png'" class="iconimage"></a>
+          <a href="http://www.linkedin.com/pub/jonah-newman/12/6bb/14/" target="_blank"><img src="img/linkedin-icon.png" onmouseover="this.src='img/linkedin-icon-hover.png'" onmouseout="this.src='img/linkedin-icon.png'" class="iconimage"></a>
+          <a href="mailto:jonahshai@gmail.com"><img src="img/mail-icon.png" onmouseover="this.src='img/mail-icon-hover.png'" onmouseout="this.src='img/mail-icon.png'" class="iconimage"></a>
+        </div>
+      </div>
+    </footer>
+
+</body>
+
+<!-- modal-content #police--> 
+    <div class="modal" id = "police">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Settling for Too Much</h4>
+          </div>
+          <div class="modal-body">
+            <p>From 2012 to 2015, the City of Chicago spent more than $210 million to settle police misconduct lawsuits. To pay for them, it issued long-term, high-interest bonds, which more than doubled the cost to taxpayers. Yet none of the city departments that touch these suits analyzed them for patterns that might allow the city to reduce the underlying misconduct and the cost to taxpayers. We created <a href = "http://projects.chicagoreporter.com/settlements/" target = "_blank">our own database</a> of all 655 misconduct lawsuits that were paid out over that four-year period, and used it to examine the patterns the city has ignored.</p>
+            <p><strong>The Chicago Reporter, June 2016</strong><p>
+          </div>
+          <div class="modal-footer">
+            <a href = "http://chicagoreporter.com/chicago-does-little-to-control-police-misconduct-or-its-costs/" target = "_blank"><button type="button" class="btn btn-primary">Read the story</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+<!-- modal-content #horner-->   
+  <div class="modal" id = "horner">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Dismantling the Towers</h4>
+        </div>
+        <div class="modal-body">
+          <p>In August 1995, the first of the infamous high rises at the Henry Horner Homes public housing project on Chicago's Near West side began to come down. Twenty years later, Westhaven, a mixed-income housing development stands in its place. This story asks whether the social experiment is working and, more importantly, whom is it working for?</p>
+          <p><strong>The Chicago Reporter, March 2015</strong><p>
+          <div class="modal-footer">
+            <a href = "http://chicagoreporter.com/dismantling-the-towers/" target = "_blank"><button type="button" class="btn btn-primary">Read the story</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+<!-- modal-content #concordia-->  
+    <div class="modal" id = "concordia">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Public Housing, Private Security</h4>
+          </div>
+          <div class="modal-body">
+            <p>Residents at Concordia Place Apartments, a subsidized housing complex on Chicago's Far South Side, said guards from the private security company that had been hired to protect them were, instead, harassing them and their guests and patroling with military-style weapons. My reporting, which relied on interviews and public records, shone a light on the company's practices, its owner's shady past, and the woefully inadequate oversight by federal housing officials, and led to the company's firing and reprieve for Concordia's residents.</p>
+            <p><strong>The Chicago Reporter, September 2015</strong></p>
+            <p><em>Finalist for 2016 Livingston Award for Local Reporting</em><p>
+          </div>
+          <div class="modal-footer">
+            <a href = "http://chicagoreporter.com/section-8-residents-feel-terrorized-by-private-security-company/" target = "_blank"><button type="button" class="btn btn-primary">Read the story</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal-content #titleix-->  
+    <div class="modal" id = "titleix">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Promise Unfulfilled?</h4>
+          </div>
+          <div class="modal-body">
+            <p>The product of several months of FOIA requests and joint reporting with Libby Sander, this story looked at Title IX, the federal civil-rights law increasingly being used by survivors of rape to try to hold their colleges accountable for mishandling investigations into sexual assault. Based on my analysis of the outcomes of Title IX sexual-violence complaints, we explored the reasons the law hasn't met students' high expectations of it.</p>
+            <p><strong>The Chronicle of Higher Education, April 2014</strong></p>
+          </div>
+          <div class="modal-footer">
+            <a href = "http://chronicle.com/article/Promise-Unfulfilled-/146299/" target = "_blank"><button type="button" class="btn btn-primary">Read the story</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal-content #execcomp--> 
+    <div class="modal" id = "execcomp">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Executive Compensation at Private Colleges</h4>
+          </div>
+          <div class="modal-body">
+            <p>This was The Chronicle’s most ambitious executive compensation project to date. In addition to reporting the compensation of presidents at the 500 wealthiest private colleges in the country, we provided comparisons to the salaries of professors and other key employees and to the university's overall budget.</p>
+            <p><strong>The Chronicle of Higher Education, December 2013</strong><p>
+            <p><em>Winner of the Education Writers Association's First Prize for Data Journalism (Medium Newsroom)</em><p>
+          </div>
+          <div class="modal-footer">
+            <a href = "http://chronicle.com/article/Executive-Compensation-at/143541#id=table" target = "_blank"><button type="button" class="btn btn-primary">Read the story</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- modal-content #tablet--> 
+    <div class="modal" id = "tablet">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">How My Great-Grandfather's Lost Shoah Stories Resurfaced 50 Years After His Death</h4>
+          </div>
+          <div class="modal-body">
+            <p>In April 2013, my family posthumously published my great-grandfather's chronicle of the two-and-a-half years he spent in Auschwitz-Birkenau. Written shortly after the war, translated from the original Yiddish by my grandmother decades later, and brought to publication through the efforts of several family members, Sky Tinged Red was truly a multigenerational project. This piece in <em>Tablet</em>, an online magazine of Jewish ideas and culture, tells the story of how this important piece of personal and communal history was brought to light decades after my great-grandfather died. I also wrote the book's foreword and afterword (which you'll have to buy the book to read) detailing my family's life before and after the Holocaust. <a href = "http://www.skytingedred.com/" target = "_blank">Click here</a> to learn more about the book or to purchase it.</p>
+            <p><strong>Tablet Magazine, April 2015</strong><p>
+          </div>
+          <div class="modal-footer">
+            <a href = "http://www.tabletmag.com/jewish-arts-and-culture/books/170340/publishing-memoir-holocaust" target = "_blank"><button type="button" class="btn btn-primary">Read the story</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal-content #wbez--> 
+    <div class="modal" id = "wbez">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Falling Behind Before Kindergarten: The 30 Million Word Gap</h4>
+          </div>
+          <div class="modal-body">
+            <p>Children from lower-income families will hear, on average, 30-million fewer words by the time they turn four than their peers from high-income households. This vocabulary gap quickly turns into an achievement gap when these children enter school. This audio story, about research that hopes to close the 30-million word gap, was produced with Lindsey Kratochwill for WBEZ's Front &amp; Center series on literacy in the Great Lakes region.</p>
+            <p><strong>Tablet Magazine, April 2015</strong><p>
+          </div>
+          <div class="modal-footer">
+            <a href = "https://www.wbez.org/shows/wbez-news/falling-behind-before-kindergarten-the-30-million-word-gap/b2d9fc53-4a20-4d63-8d40-93499fee0ffb" target = "_blank"><button type="button" class="btn btn-primary">Read the story</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
 </html>
